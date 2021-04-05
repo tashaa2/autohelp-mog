@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+
+.header_size {
+    height: 450px;
+    width: 100%;
+}
+
+.header__flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.responsive-picture {    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;     
+}
+
+.responsive-picture__url-image {
+    background-image: url("https://images3.alphacoders.com/103/103149.jpg");
+}
+
+.header__opasity {
+    height: 40%;
+    width: 100%;
+    background: rgba(13, 13, 14, 0.4);
+}
+
+.text-title {
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(242, 246, 248);
+}
+
+.text-subtitle {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(146, 210, 230);
+}
+
+.text_color {
+    color: rgb(12, 12, 12);   
+}
+
+.text-title_weight {    
+    font-weight: 600;
+}
+
+.text-description {
+    color: rgb(13, 13, 14);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.text__shadow {
+    text-shadow: 5px -10px 10px rgb(29, 29, 29), 2px 2px 2px rgb(252, 252, 252);
+}
+
+.flex-container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.responsive-picture_size {    
+    width: 97%;
+    height: 97%;      
+}
+
+.responsive-picture__url-photo1 {
+    background-image: url(./a.jpg);
+}
+
+.responsive-picture__url-photo2 {
+    background-image: url(./b.jpg);
+}
+
+.block_location-center {
+    margin: 0 auto;
+}
+
+.flex-container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.box-shadow {        
+    box-shadow: 0px 0px 5px 1px rgb(108, 108, 109);    
+}
+
+.box-shadow_size {
+    height: 500px;
+    width: 48%;
+}
+
+.box-shadow_margin-top {
+    margin-top: 30px;
+}
+
+.section-photo {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-servises {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-servises_size {
+    height: 400px;    
+}
+
+.section-servises_border {
+    border: rgb(42, 44, 43) 2px solid;
+}
+
+.section-servises_color {    
+    background: radial-gradient(ellipse farthest-side at 650px 25px, rgb(242, 239, 243), rgb(129, 128, 128));
+}
+
+.section_margin-top {
+    margin-top: 30px;
+}
+
+.section-spisok_size {
+    width: 50%;
+}
+
+.responsive-picture__url-avto1 {
+    background-image: url("https://image.flaticon.com/icons/png/512/55/55308.png");
+}
+
+.responsive-picture__url-avto2 {
+    background-image: url("https://image.flaticon.com/icons/png/512/30/30902.png");
+}
+
+.responsive-picture__url-avto3 {
+    background-image: url("https://image.flaticon.com/icons/png/512/55/55349.png");
+}
+
+.responsive-picture__url-avto4 {
+    background-image: url("https://image.flaticon.com/icons/png/512/55/55230.png");
+}
+
+.responsive-picture__url-avto5 {
+    background-image: url("https://image.flaticon.com/icons/png/512/31/31410.png");
+}
+
+.responsive-picture__url-avto6 {
+    background-image: url("https://image.flaticon.com/icons/png/512/46/46818.png");
+}
+
+.responsive-picture__icon_size {
+    width: 100%;
+    height: 100px;
+    background-size: contain;
+}
+
+.section-icon-text {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-align: center;   
+}
+
+.section-icon-text_size {
+    height: 120px;
+    width: 30%;    
+}
+
+.section-icon-text_border {    
+    border: 2px dotted blue;
+    border-radius: 10px;
+}
+
+.section-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-icon_height {
+    height: 170px;    
+}
+
+.section-icon_color {
+    background-color: rgb(129, 128, 128);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;                
+}
+
+.flex-container_size {
+    width: 50%;
+    height: 140px;
+}
+
+.responsive-picture__url-photo3 {
+    background-image: url(./с.jpg);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__border {
+    border-top: 2px ridge rgb(12, 12, 12);
+}
+
+.footer_size {
+    width: 100%;
+    height: 150px;
+}
+
+.footer__contsiner-text_size {
+    width: 90%;
+    height: 70%;
+}
+
+.footer__contsiner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+@media (max-width:1100px) {
+
+    .text-description_size {
+        font-size: 16px;
+    }
+
+    .section-photo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-shadow_size {
+        height: 700px;
+        width: 97%;
+    }
+
+}
+
+@media (max-width:920px) {
+
+    .section-spisok_size {
+        width: 70%;
+    }      
+
+    .flex-container_size {
+        width: 80%;       
+    }
+
+    .section-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;        
+    }
+
+    .section-icon_height {
+        height: 300px;    
+    }
+
+    .section-icon-text_size {
+        height: 80%;
+        width: 30%;    
+    } 
+    
+    .box-shadow__photo-example_size {
+        height: 550px;
+    }
+
+}
+
+@media (max-width:783px) {  
+    
+    .text-title {
+        font-size: 30px; 
+        text-align: center;       
+    }
+
+    .text-description {       
+        font-size: 16px;        
+    }  
+    
+    .text-subtitle {
+        font-size: 20px;      
+    }
+
+    .box-shadow_size {         
+        height: 500px;
+    }    
+
+}
+
+@media (max-width:670px) {
+
+    .box-shadow__photo-example_size {
+        height: 400px;
+    }
+
+}
+
+@media (max-width:525px) {
+
+    .header_size {
+        height: 350px;        
+    }
+
+    .text-subtitle {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .box-shadow_size {        
+        height: 350px;        
+    }    
+
+    .section-spisok_size {
+        width: 90%;
+    }
+
+    .flex-container_size {
+        width: 100%;
+        height: 140px;
+    }
+
+    .text-title {
+        font-size: 20px;
+    }
+    
+    .text-description {
+        font-size: 14px;
+    }
+
+    .box-shadow__photo-example_size {
+        height: 300px;
+    }
+
+}
+
+@media (max-width:400px) {
+
+    .box-shadow_size {      
+        height: 300px;
+    }   
+
+    .section-servises_size {
+        height: 400px;
+    }
+
+    .text-description {
+        font-size: 12px;
+    }  
+    
+    .box-shadow__photo-example_size {
+        height: 250px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
